@@ -1,0 +1,12 @@
+{
+  "name": "css3-flex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

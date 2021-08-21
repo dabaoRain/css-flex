@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      /* 给父级添加flex属性 */
+      display: flex;
+      width:60%;
+      height:350px;
+      background: pink;
+      margin:0 auto;
+    }
+    div span{
+      width:100px;
+      height:100px;
+      background:purple;
+      margin:10px;
+    }
+    div span:nth-child(2){
+      /* order 属性定义项目的排列顺序 */
+      order:-1;
+    }
+
+    div span:nth-child(3){
+      /* align-self 控制子项自己在侧轴上的排列方式 */
+      align-self: flex-end;
+    }
+
+  </style>
+</head>
+<body>
+    <div>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+</body>
+</html>

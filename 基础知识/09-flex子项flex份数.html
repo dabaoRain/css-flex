@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      /* 给父级添加flex属性 */
+      display: flex;
+      width:60%;
+      height:150px;
+      background: pink;
+      margin:0 auto;
+    }
+    div span:nth-child(1){
+      width:100px;
+      height:150px;
+      background:purple;
+    }
+    div span:nth-child(2){
+     /* flex属性定义子元素分配剩余空间 用flex来表示占多少份 */
+      flex: 1;
+      background:red;
+    }
+    div span:nth-child(3){
+      width:100px;
+      height:150px;
+      background:green;
+    }
+
+
+    p{
+      /* 给父级添加flex属性 */
+      display: flex;
+      width:60%;
+      height:150px;
+      background: pink;
+      margin:0 auto;
+    }
+    p span{
+      /* 平均分 */
+      flex:1;
+    }
+  </style>
+</head>
+<body>
+    <div>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+
+    <p>
+       <span>4</span>
+       <span>5</span>
+       <span>6</span>
+    </p>
+</body>
+</html>

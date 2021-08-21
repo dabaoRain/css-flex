@@ -171,6 +171,11 @@
         .item {
           order: <number>;
         }
+ ##  flex布局实现垂直水平居中（单行）
+ 
+![20.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4cc8c2dba524dcc9b66177899d7444d~tplv-k3u1fbpfcp-watermark.image)
 
- ##  flex布局实现垂直水平居中
-               
+           
+本文的实战项目地址：
+https://github.com/dabaoRain/css-flex
+作者对于css中flex弹性布局的理解属于基础入门级别，对于文章中的理解或者使用错误，望各位大神不吝指出，关于css中flex弹性布局有那些需要补充的也可以进行评论，作者不胜感激。排版码字不易，觉得对您有所帮助，就帮忙点个赞吧！
